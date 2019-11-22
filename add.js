@@ -8,8 +8,9 @@ console.log("Sum of numbers from 100 to 1 is :"+sum)
 
 //program to add numbers from 500to 114 using for loop
 
-var j=0;add=0;
-for(j=500;j>=114;j--){
+var j=500;add=0;
+while(j>=114){
     add=add+j;
+    j--;
 }
 console.log("Sum of numbers from 500 to 114 is :"+add)
